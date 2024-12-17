@@ -1,0 +1,63 @@
+/* Center the content on the page */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #a4a4ac;
+    color: hwb(0 2% 55% / 0.089);
+}
+
+/* Styling the heading */
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+/* Style the input and button elements */
+#user-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style for buttons */
+button {
+    width: 49%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Check button specific style */
+#check-btn {
+    background-color: #4caf4f75;
+    margin-right: 2%;
+}
+
+/* Clear button specific style */
+#clear-btn {
+    background-color: #f44336;
+}
+
+/* Results display */
+#results-div {
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #555;
+    background-color: #e7f3ff;
+    border: 1px solid #115fb3;
+    border-radius: 4px;
+    display: none;
+}
